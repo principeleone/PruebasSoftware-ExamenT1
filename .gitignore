@@ -1,0 +1,132 @@
+# =========================
+# Maven
+# =========================
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Maven Wrapper
+.mvn/timing.properties
+
+# =========================
+# Spring Boot
+# =========================
+HELP.md
+
+# Logs
+*.log
+logs/
+
+# =========================
+# IntelliJ IDEA
+# =========================
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# IntelliJ caches
+out/
+
+# =========================
+# Eclipse / STS
+# =========================
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache/
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+
+# History
+.history/
+
+# =========================
+# NetBeans
+# =========================
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# =========================
+# Build outputs
+# =========================
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# Gradle (por si algún módulo lo usa)
+.gradle/
+
+# =========================
+# OS Files
+# =========================
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# Linux
+*~
+
+# =========================
+# Temporary files
+# =========================
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# =========================
+# Environment files
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Application secrets
+# =========================
+application-local.yml
+application-local.yaml
+application-local.properties
+
+application-dev.yml
+application-dev.yaml
+application-dev.properties
+
+# =========================
+# Test reports
+# =========================
+surefire-reports/
+failsafe-reports/
+
+# =========================
+# Coverage
+# =========================
+coverage/
+jacoco.exec
+/site/
+
+# =========================
+# Generated files
+# =========================
+generated/
+generated-sources/
+
+# =========================
+# Docker
+# =========================
+docker-data/
